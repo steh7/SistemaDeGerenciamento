@@ -1,0 +1,16 @@
+<TelaCadastro>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            id: email
+            hint_text: "Email"
+        TextInput:
+            id: senha
+            hint_text: "Senha"
+            password: True
+        TextInput:
+            id: nome
+            hint_text: "Nome"
+        Button:
+            text: "Cadastrar"
+            on_release: root.fazer_cadastro(email.text, senha.text, nome.text)

@@ -1,0 +1,20 @@
+<TelaPrincipal>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            id: titulo
+            hint_text: "Título da Tarefa"
+        TextInput:
+            id: descricao
+            hint_text: "Descrição"
+        TextInput:
+            id: data_vencimento
+            hint_text: "Data de Vencimento"
+        TextInput:
+            id: prioridade
+            hint_text: "Prioridade"
+        Button:
+            text: "Criar Tarefa"
+            on_release: root.criar_nova_tarefa(
+                titulo.text, descricao.text, data_vencimento.text, prioridade.text, "usuario_uid_exemplo"
+            )

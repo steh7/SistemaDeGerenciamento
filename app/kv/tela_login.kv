@@ -1,0 +1,13 @@
+<TelaLogin>:
+    BoxLayout:
+        orientation: 'vertical'
+        TextInput:
+            id: email
+            hint_text: "Email"
+        TextInput:
+            id: senha
+            hint_text: "Senha"
+            password: True
+        Button:
+            text: "Entrar"
+            on_release: root.fazer_login(email.text, senha.text)

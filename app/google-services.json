@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304067828965",
+    "project_id": "gerenciador-py",
+    "storage_bucket": "gerenciador-py.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304067828965:android:3169c20f50a62f7c9e080c",
+        "android_client_info": {
+          "package_name": "com.company.gerenciador"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj50YEBpRVjo8b_ljOmy4U1HdOZs8vTvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
