@@ -7,36 +7,33 @@
 *.aab
 *.obb
 
-# Android SDK e NDK (não versionar, baixados localmente)
+# Android SDK e NDK (baixados localmente)
 android-sdk/
 android-ndk-*/
 
 # Python virtual environment
 venv/
 env/
+
+# Cache e arquivos compilados
 __pycache__/
 *.pyc
-
-# Arquivos temporários
-*.log
-*.tmp
-*.swp
-.DS_Store
-
-# Editor/IDE
-.vscode/
-.idea/
-
-venv/
-*.pyc
-__pycache__/
 *.pyo
 *.pyd
+
+# Banco de dados, logs e temporários
 *.sqlite3
 *.db
 *.log
-.idea/
-.vscode/
+*.tmp
+*.swp
 
-#Chavefirebase
+# Arquivos do sistema
+.DS_Store
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Arquivo de chave secreta Firebase
 chaveFirebase.json
