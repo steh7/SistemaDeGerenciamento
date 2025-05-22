@@ -37,3 +37,6 @@ __pycache__/
 *.log
 .idea/
 .vscode/
+
+#Chavefirebase
+Chavefirebase.json
